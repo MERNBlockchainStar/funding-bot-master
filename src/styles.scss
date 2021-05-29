@@ -1,0 +1,13 @@
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  height: 100%;
+  overflow: hidden;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}

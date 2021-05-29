@@ -1,0 +1,13 @@
+<div class="container">
+  <app-title-bar [title]="title" (close)="OnCloseWindow()"></app-title-bar>
+  <div class="contents">
+    <mat-tab-group class="main-tab" animationDuration="0ms">
+      <mat-tab label="USD-Margined">
+          <funding-rates-panel></funding-rates-panel>
+      </mat-tab>
+      <mat-tab label="Coin-Margined">
+        <funding-rates-coin-panel></funding-rates-coin-panel>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>
